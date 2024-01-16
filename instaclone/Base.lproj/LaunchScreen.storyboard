@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="인스타로고" translatesAutoresizingMaskIntoConstraints="NO" id="M83-hm-LIg">
+                                <rect key="frame" x="129" y="301" width="156" height="134"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="156" id="r06-d2-buy"/>
+                                    <constraint firstAttribute="height" constant="134" id="vXe-x6-Edn"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="시작화면2" translatesAutoresizingMaskIntoConstraints="NO" id="vox-gl-UNa">
+                                <rect key="frame" x="110" y="635" width="194" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="C6k-2z-59L"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vox-gl-UNa" secondAttribute="trailing" constant="110" id="18H-se-FL5"/>
+                            <constraint firstItem="vox-gl-UNa" firstAttribute="top" secondItem="M83-hm-LIg" secondAttribute="bottom" constant="200" id="2wV-Mi-bSv"/>
+                            <constraint firstItem="vox-gl-UNa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="110" id="8e1-vq-SHW"/>
+                            <constraint firstItem="M83-hm-LIg" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="F8L-Et-LmL"/>
+                            <constraint firstItem="M83-hm-LIg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qcF-ve-ujC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="시작화면2" width="70.666664123535156" height="42"/>
+        <image name="인스타로고" width="76.666664123535156" height="80.666664123535156"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
